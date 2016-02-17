@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import "UCach.h"
 typedef NS_ENUM(NSInteger,HttperOption)
 {
@@ -16,8 +15,7 @@ typedef NS_ENUM(NSInteger,HttperOption)
     UHttperCachGet,
     UHttperSession
 };
-typedef void(^Success)(id response);
-typedef void(^Failure)(id restrict);
+//typedef void(^Success)(id response);
 @interface UHttper : NSObject
 
 #pragma mark --网络是否正常连接

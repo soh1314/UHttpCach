@@ -42,6 +42,8 @@
 		FCC203FD1C743B2400DEDF02 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC203F21C743B2400DEDF02 /* AFURLRequestSerialization.m */; };
 		FCC203FE1C743B2400DEDF02 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC203F41C743B2400DEDF02 /* AFURLResponseSerialization.m */; };
 		FCC203FF1C743B2400DEDF02 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC203F61C743B2400DEDF02 /* AFURLSessionManager.m */; };
+		FCC2040C1C743DA500DEDF02 /* LYEaseDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC2040B1C743DA500DEDF02 /* LYEaseDownloader.m */; };
+		FCC2040F1C746CC100DEDF02 /* LYEaseDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC2040E1C746CC100DEDF02 /* LYEaseDownloadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -135,6 +137,10 @@
 		FCC203F51C743B2400DEDF02 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		FCC203F61C743B2400DEDF02 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		FCC204001C743B3E00DEDF02 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FCC2040A1C743DA500DEDF02 /* LYEaseDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEaseDownloader.h; sourceTree = "<group>"; };
+		FCC2040B1C743DA500DEDF02 /* LYEaseDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEaseDownloader.m; sourceTree = "<group>"; };
+		FCC2040D1C746CC100DEDF02 /* LYEaseDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEaseDownloadManager.h; sourceTree = "<group>"; };
+		FCC2040E1C746CC100DEDF02 /* LYEaseDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEaseDownloadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +240,10 @@
 				FCC203AB1C743AEC00DEDF02 /* UCach.h */,
 				FCC203AC1C743AEC00DEDF02 /* UHttper.h */,
 				FCC203AD1C743AEC00DEDF02 /* UHttper.m */,
+				FCC2040A1C743DA500DEDF02 /* LYEaseDownloader.h */,
+				FCC2040B1C743DA500DEDF02 /* LYEaseDownloader.m */,
+				FCC2040D1C746CC100DEDF02 /* LYEaseDownloadManager.h */,
+				FCC2040E1C746CC100DEDF02 /* LYEaseDownloadManager.m */,
 			);
 			name = UHTTPCach;
 			sourceTree = "<group>";
@@ -448,6 +458,7 @@
 				FCC203E11C743B1200DEDF02 /* UIImageView+WebCache.m in Sources */,
 				FCC203DF1C743B1200DEDF02 /* UIImage+WebP.m in Sources */,
 				FCC203FC1C743B2400DEDF02 /* AFURLConnectionOperation.m in Sources */,
+				FCC2040C1C743DA500DEDF02 /* LYEaseDownloader.m in Sources */,
 				FCC203DB1C743B1200DEDF02 /* SDWebImagePrefetcher.m in Sources */,
 				FCC2037E1C743AAF00DEDF02 /* ViewController.m in Sources */,
 				FCC203D71C743B1200DEDF02 /* SDWebImageDecoder.m in Sources */,
@@ -460,6 +471,7 @@
 				FCC203DC1C743B1200DEDF02 /* UIButton+WebCache.m in Sources */,
 				FCC203FF1C743B2400DEDF02 /* AFURLSessionManager.m in Sources */,
 				FCC203DE1C743B1200DEDF02 /* UIImage+MultiFormat.m in Sources */,
+				FCC2040F1C746CC100DEDF02 /* LYEaseDownloadManager.m in Sources */,
 				FCC203F81C743B2400DEDF02 /* AFHTTPRequestOperationManager.m in Sources */,
 				FCC203F91C743B2400DEDF02 /* AFHTTPSessionManager.m in Sources */,
 				FCC203AE1C743AEC00DEDF02 /* UCach.m in Sources */,
