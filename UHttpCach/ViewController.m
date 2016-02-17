@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "UHttper.h"
+#define weatherUrl @"http://app.zhfzm.com/zouyizou_app/actionDispatcher.do?reqUrl=weather&reqMethod=queryWeather&areaId=3201&cityId=3201"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self loadData];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (void)loadData
+{
+    UHttper * httper = [UHttper manager];
+    [httper HttperGet:weatherUrl HttperOption:3 Success:^(AFHTTPRequestOperation *operation, id response) {
+        NSLog(@"success");
+    } Failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"failure");
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {
